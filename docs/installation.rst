@@ -28,6 +28,12 @@ The easiest way to install the latest stable version of Airflow is with ``pip``:
 .. code-block:: bash
 
     pip install apache-airflow
+    
+If the `airflow` command is not being recognized, then install Airflow globally:
+
+.. code-block:: bash
+
+    sudo -H pip install apache-airflow
 
 You can also install Airflow with support for extra features like ``gcp`` or ``postgres``:
 
